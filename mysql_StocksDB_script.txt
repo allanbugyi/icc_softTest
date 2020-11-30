@@ -1,0 +1,11 @@
+CREATE TABLE stocks
+(
+	name CHAR(10) NOT NULL PRIMARY KEY
+);
+
+CREATE TABLE quotes
+(
+	stock_name CHAR(10) PRIMARY KEY,
+	quote FLOAT,
+	FOREIGN KEY (stock_name) REFERENCES stocks(name)
+);

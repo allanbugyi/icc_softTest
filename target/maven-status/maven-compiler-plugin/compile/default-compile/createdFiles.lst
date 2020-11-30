@@ -1,0 +1,8 @@
+model\Quote.class
+com\ericsson\icc\IccApplication.class
+repository\QuotesRepository.class
+model\Stock.class
+controller\StocksController.class
+repository\StocksRepository.class
+service\QuotesService.class
+service\StocksService.class
